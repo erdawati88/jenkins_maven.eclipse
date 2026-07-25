@@ -16,6 +16,11 @@
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.release>17</maven.compiler.release>
         <junit.jupiter.version>5.11.4</junit.jupiter.version>
+        
+       <!-- SonarQube properties -->
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <sonar.projectKey>maven-project-jenkins-lab</sonar.projectKey>
+    <sonar.projectName>maven-project-jenkins-lab</sonar.projectName> 
     </properties>
 
     <dependencies>
