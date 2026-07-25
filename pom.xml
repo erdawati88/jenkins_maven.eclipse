@@ -23,9 +23,11 @@
         <junit.jupiter.version>5.11.4</junit.jupiter.version>
 
         <!-- SonarQube -->
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
-        <sonar.projectKey>maven-project-jenkins-lab</sonar.projectKey>
-        <sonar.projectName>maven-project-jenkins-lab</sonar.projectName>
+	<sonar.host.url>http://localhost:9000</sonar.host.url>
+	<sonar.projectKey>maven-project-jenkins-lab</sonar.projectKey>
+	<sonar.projectName>maven-project-jenkins-lab</sonar.projectName>
+	<sonar.login>squ_34b4e7dbd6daa16457dc6897dab47b85d4cd0223</sonar.login>
+
     </properties>
 
     <dependencies>
