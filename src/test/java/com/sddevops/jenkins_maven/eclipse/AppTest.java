@@ -35,6 +35,7 @@ public class AppTest
     {
         assertTrue( true );
     }
+
     public void testAppNotNull() {
         App app = new App();
         assertNotNull(app);
