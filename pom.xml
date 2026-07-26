@@ -26,9 +26,7 @@
         <sonar.login>squ_34b4e7dbd6daa16457dc6897dab47b85d4cd0223</sonar.login>
 
         <!-- Jacoco XML report path -->
-        <sonar.coverage.jacoco.xmlReportPaths>
-            target/site/jacoco/jacoco.xml
-        </sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <dependencies>
@@ -100,8 +98,10 @@
                     </goals>
                     <configuration>
                         <outputDirectory>${project.build.directory}/site/jacoco</outputDirectory>
-                        <formats>XML</formats>
-                        <formats>HTML</formats>
+                        <formats>
+                        <format>XML</format>
+                        <format>HTML</format>
+                        </formats>
                     </configuration>
                 </execution>
             </executions>
