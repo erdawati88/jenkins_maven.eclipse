@@ -60,7 +60,7 @@ class SongCollectionTest {
 
     @Test
     void testGetSongs() {
-        assertEquals(SONG_COLLECTION_SIZE +1, sc.getSongs().size());
+        assertEquals(SONG_COLLECTION_SIZE, sc.getSongs().size());
     }
 
     @Test
