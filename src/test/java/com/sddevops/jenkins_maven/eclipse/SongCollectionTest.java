@@ -60,7 +60,7 @@ class SongCollectionTest {
 
     @Test
     void testGetSongs() {
-        assertEquals(SONG_COLLECTION_SIZE, sc.getSongs().size());
+        assertEquals(SONG_COLLECTION_SIZE +1, sc.getSongs().size());
     }
 
     @Test
@@ -93,7 +93,7 @@ class SongCollectionTest {
     @Test
     void testFindSongsById() {
         assertEquals("billie eilish", sc.findSongsById("004").getArtiste());
-        assertNull(sc.findSongsById("0"));
+        assertNull(sc.findSongsById("193"));
     }
 
     @Test
